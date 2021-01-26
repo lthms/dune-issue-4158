@@ -1,0 +1,8 @@
+(coq.theory
+  (modules :standard \ extract)
+  (name Foo))
+
+(coq.extraction
+  (prelude extract)
+  (extracted_modules extract)
+  (theories Foo))
